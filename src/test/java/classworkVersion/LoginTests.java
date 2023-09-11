@@ -1,5 +1,6 @@
 package classworkVersion;
 
+import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,17 +12,18 @@ public class LoginTests extends TestBase {
  public void precondition(){
      if(isLogged()) logout();
  }
-    @Test
-    public void loginPositiveTest() {
-        openLoginForm();
-        fillLoginForm("asd@fgh.com", "$Asdf1234");
-        submitLogin();
-        Assert.assertTrue(isLoggedSuccess());
-    }
+//    @Test
+//    public void loginPositiveTest() {
+//        openLoginForm();
+//        fillLoginForm("anna@mail.com", "Qq12345$");
+//        submitLogin();
+//        Assert.assertTrue(isLoggedSuccess());
+//    }
     @Test
     public void loginPositiveTest1() {
+     User user = new User().withEmail("anna@mail.com").withPassword("Qq12345$");
         openLoginForm();
-        fillLoginForm("asd@fgh.com", "$Asdf1234");
+        fillLoginForm(user);
         submitLogin();
         Assert.assertTrue(isLoggedSuccess());
     }

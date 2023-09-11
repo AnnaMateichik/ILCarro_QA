@@ -11,10 +11,15 @@ public interface HelperUser extends HelperBase  {
     }  default void openRegistrationForm(){
         click(By.xpath("//*[.=' Sign up ']"));
     }
-    default void fillLoginForm(String email, String password){
-        type(By.id("email"), email);
-        type(By.id("password"), password);
-    }  default void fillRegistrationForm(User user){
+//    default void fillLoginForm(String email, String password){
+//        type(By.id("email"), email);
+//        type(By.id("password"), password);
+//    }
+default void fillLoginForm(User user){
+    type(By.id("email"), user.getEmail());
+    type(By.id("password"), user.getPassword());
+}
+    default void fillRegistrationForm(User user){
         type(By.id("name"), user.getName());
         type(By.id("lastName"), user.getLastName());
         type(By.id("email"), user.getEmail());
