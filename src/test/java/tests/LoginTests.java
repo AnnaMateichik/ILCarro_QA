@@ -11,8 +11,10 @@ public class LoginTests extends TestBase{
     openLoginForm();
     fillLoginForm("anna@mail.com","Qq12345$");
     submitLogin();
-    Assert.assertTrue(isElementPresent(By.xpath("//*[@class='positive-button ng-star-inserted']")));
     okClick();
+    //assert
+    Assert.assertTrue(isElementPresent(By.xpath("//*[.=' Logout ']")));
+
 
     }
 }

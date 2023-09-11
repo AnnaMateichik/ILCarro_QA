@@ -26,7 +26,8 @@ public class TestBase {
         }
 
     public void openLoginForm(){
-    wd.findElement(By.xpath("//div//*[@ng-reflect-router-link='login']")).click();
+
+        wd.findElement(By.xpath("//div//*[@ng-reflect-router-link='login']")).click();
     }
 
     public void fillLoginForm(String email,String password){
