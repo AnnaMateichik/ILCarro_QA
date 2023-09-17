@@ -14,7 +14,7 @@ public class RegistrationTests extends TestBase{
       User user = new User(
               "Lara",
               "Kroft",
-              "Lara" + i + "@mail.com",
+              "lara" + i + "@mail.com",
               "Ll12345$"
 
       );
@@ -33,7 +33,7 @@ public class RegistrationTests extends TestBase{
       User user = new User(
               "Lara",
               "Kroft",
-              "Laramail.com",
+              "laramail.com",
               "Ll12345$"
 
       );
@@ -54,7 +54,7 @@ public class RegistrationTests extends TestBase{
       User user = new User(
               "Lara",
               "Kroft",
-              "Lara" + i + "@mail.com",
+              "lara" + i + "@mail.com",
               "ll12345$"
 
       );
