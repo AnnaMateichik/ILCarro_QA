@@ -1,11 +1,12 @@
 package classworkVersion;
 
+import manager.HelperCar;
 import manager.HelperUser;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-public class TestBase implements HelperUser {
+public class TestBase implements HelperUser, HelperCar {
 
     WebDriver wd;
 

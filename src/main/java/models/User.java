@@ -13,7 +13,8 @@ public class User {
 //        this.email = email;
 //        this.password = password;
 //    }
-public User(){}
+
+
         public User(String name, String lastName, String email, String password) {
         this.name = name;
         this.lastName = lastName;
@@ -21,6 +22,7 @@ public User(){}
         this.password = password;
     }
 
+    public User(){};
 
 
     public void setName(String name) {

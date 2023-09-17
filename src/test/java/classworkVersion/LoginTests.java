@@ -12,18 +12,18 @@ public class LoginTests extends TestBase {
  public void precondition(){
      if(isLogged()) logout();
  }
-//    @Test
-//    public void loginPositiveTest() {
-//        openLoginForm();
-//        fillLoginForm("anna@mail.com", "Qq12345$");
-//        submitLogin();
-//        Assert.assertTrue(isLoggedSuccess());
-//    }
     @Test
-    public void loginPositiveTest1() {
+    public void loginPositiveTest() {
+        openLoginForm();
+        fillLoginForm("anna@mail.com", "Qq12345$");
+        submitLogin();
+        Assert.assertTrue(isLoggedSuccess());
+    }
+    @Test
+    public void loginPositiveTestModel() {
      User user = new User().withEmail("anna@mail.com").withPassword("Qq12345$");
         openLoginForm();
-        fillLoginForm(user);
+        fillLoginForm(user.getEmail(), user.getPassword());
         submitLogin();
         Assert.assertTrue(isLoggedSuccess());
     }
