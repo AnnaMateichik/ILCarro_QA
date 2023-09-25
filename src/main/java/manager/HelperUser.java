@@ -46,14 +46,14 @@ default void fillLoginForm(User user){
    //version1
         //click(By.cssSelector("label[for='terms-of-use']"));
        //version2
-//       JavascriptExecutor js = (JavascriptExecutor)wd;
-//       js.executeScript("document.querySelector('#terms-of-use').click();");
+       JavascriptExecutor js = (JavascriptExecutor)wd;
+       js.executeScript("document.querySelector('#terms-of-use').click();");
        //version3
-       Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
-       int x = rect.getX() + rect.getWidth()/10;
-       int y = rect.getY()+rect.getHeight()/4;
-       Actions actions = new Actions(wd);
-       actions.moveByOffset(x,y).click().perform();
+//       Rectangle rect = wd.findElement(By.xpath("//*[@class='checkbox-container']")).getRect();
+//       int x = rect.getX() + rect.getWidth()/10;
+//       int y = rect.getY()+rect.getHeight()/4;
+//       Actions actions = new Actions(wd);
+//       actions.moveByOffset(x,y).click().perform();
 
    }
 
