@@ -35,6 +35,10 @@ public class AddNewCarTests extends TestBase{
 
         openCarForm();
         fillCarForm(car);
+        logger.info("addNewCarPositive starts with : "+ car.getLocation() + " , " + car.getManufacture()
+                + " , " + car.getModel()+ " , " + car.getYear()+ " , " + car.getFuel() + " , "+
+                car.getSeats()+ " , " + car.getCarClass()+ " , "+ car.getCarRegNumber()+ " , "+car.getPrice()+ " , "+
+                car.getAbout());
         pause(5000);
     }
 }

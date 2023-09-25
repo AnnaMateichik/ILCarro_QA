@@ -22,7 +22,8 @@ public class RegistrationTests extends TestBase{
      openRegistrationForm();
      fillRegistrationForm(user);
      submitRegistration();
-
+     logger.info("registrationPositive starts with : "+ user.getName()+" , "+ user.getLastName() +" , " +user.getEmail()  +" & " + user.getPassword());
+     pause(5000);
 
  }
  @Test
@@ -30,7 +31,7 @@ public class RegistrationTests extends TestBase{
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
 
-      User user = new User(
+      User user1 = new User(
               "Lara",
               "Kroft",
               "laramail.com",
@@ -39,19 +40,20 @@ public class RegistrationTests extends TestBase{
       );
 
      openRegistrationForm();
-     fillRegistrationForm(user);
+     fillRegistrationForm(user1);
      submitRegistration();
+  logger.info("registrationNegativeWrongEmail starts with : "+ user1.getName()+" , "+ user1.getLastName() +" , " +user1.getEmail()  +" & " + user1.getPassword());
   //Assert.
   pause(5000);
       Assert.assertTrue(isElementPresent(By.xpath("//*[.='Wrong email format']")));
-
+  pause(5000);
  }
  @Test
     public void registrationNegativeWrongPassword(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
 
-      User user = new User(
+      User user2 = new User(
               "Lara",
               "Kroft",
               "lara" + i + "@mail.com",
@@ -60,9 +62,11 @@ public class RegistrationTests extends TestBase{
       );
 
      openRegistrationForm();
-     fillRegistrationForm(user);
+     fillRegistrationForm(user2);
      submitRegistration();
+  logger.info("registrationNegativeWrongPassword starts with : "+ user2.getName()+" , "+ user2.getLastName() +" , " +user2.getEmail()  +" & " + user2.getPassword());
      pause(5000);
      Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
+  pause(5000);
  }
 }

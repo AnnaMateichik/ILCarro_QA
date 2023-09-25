@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW14">
+    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW14_task2">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +67,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/97252/java_qa39_projects/PhoneBook_39&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.RegistrationTests.registrationPositive">
-    <configuration name="AddNewCarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\97252\java_qa39_projects\ILCarro\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.RegistrationTests.registrationNegativeWrongPassword">
+    <configuration name="AddNewCarTests.addNewCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -77,7 +92,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;classworkVersion.AddNewCarTests&quot;" />
+            <option value="&quot;classworkVersion.AddNewCarTests.addNewCarPositive&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -88,7 +103,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests.loginPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +116,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;classworkVersion.LoginTests.loginPositiveTest&quot;" />
+            <option value="&quot;classworkVersion.LoginTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -112,7 +127,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.registrationNegativeWrongEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTests.loginPositiveTestModel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -125,7 +140,31 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;classworkVersion.RegistrationTests.registrationNegativeWrongEmail&quot;" />
+            <option value="&quot;classworkVersion.LoginTests.loginPositiveTestModel&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;classworkVersion.RegistrationTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -160,37 +199,13 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="RegistrationTests.registrationPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;classworkVersion.RegistrationTests.registrationPositive&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationTests.registrationPositive" />
         <item itemvalue="Gradle.RegistrationTests.registrationNegativeWrongPassword" />
-        <item itemvalue="Gradle.RegistrationTests.registrationNegativeWrongEmail" />
-        <item itemvalue="Gradle.LoginTests.loginPositiveTest" />
-        <item itemvalue="Gradle.AddNewCarTests" />
+        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositive" />
+        <item itemvalue="Gradle.RegistrationTests" />
+        <item itemvalue="Gradle.LoginTests" />
+        <item itemvalue="Gradle.LoginTests.loginPositiveTestModel" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694954309791</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW14_task2">
+      <option name="closed" value="true" />
+      <created>1694955374413</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694955374413</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -243,6 +266,7 @@
     <MESSAGE value="CW13" />
     <MESSAGE value="HW13_with" />
     <MESSAGE value="HW14" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW14" />
+    <MESSAGE value="HW14_task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW14_task2" />
   </component>
 </project>
