@@ -8,6 +8,7 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.interactions.Actions;
 
 public interface HelperUser extends HelperBase  {
+
     default void openLoginForm(){
         click(By.xpath("//*[.=' Log in ']"));
     }  default void openRegistrationForm(){
@@ -19,10 +20,14 @@ public interface HelperUser extends HelperBase  {
 //    }
 default void fillLoginForm(String email, String password){
     type(By.id("email"), email);
+//    type(By.id("emailll"), email);
+
     type(By.id("password"), password);
 }
 default void fillLoginForm(User user){
     type(By.id("email"), user.getEmail());
+//    type(By.id("emailll"), user.getEmail());
+
     type(By.id("password"), user.getPassword());
 }
     default void fillRegistrationForm(User user){

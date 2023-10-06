@@ -34,6 +34,7 @@ public class TestBase implements HelperUser, HelperCar {
 //        wd.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 //    }
     public void setup() {
+
         init();
     }
 
