@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW16">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/ProviderData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/add.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/negative.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/positive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pre_prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/reg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW19.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/WDListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/WDListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/RegistrationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +284,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696606001485</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="HW19">
+      <option name="closed" value="true" />
+      <created>1697562561591</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697562561591</updated>
+    </task>
+    <task id="LOCAL-00011" summary="HW19.1">
+      <option name="closed" value="true" />
+      <created>1697562721786</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1697562721786</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -315,6 +312,8 @@
     <MESSAGE value="HW15" />
     <MESSAGE value="HW15.1" />
     <MESSAGE value="HW16" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW16" />
+    <MESSAGE value="HW19" />
+    <MESSAGE value="HW19.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW19.1" />
   </component>
 </project>

@@ -97,4 +97,11 @@ default void fillLoginForm(User user){
        clickOkButton();
 
     }
+    default void login(String email, String password){
+       openLoginForm();
+       fillLoginForm(email, password);
+       submitLogin();
+       clickOkButton();
+
+    }
 }

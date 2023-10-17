@@ -14,10 +14,13 @@ public class AddNewCarTests extends TestBase{
     public void precondition(){
         if(isLogged() == false){
             login(
-                     new User()
-                             .getEmail()
-                            .getPassword()
-//            user.getEmail(), user.getPassword()
+//                    new User()
+//                            .withEmail(email)
+//                            .withPassword(password)
+                    new User()
+                            .withEmail("anna@mail.com")
+                            .withPassword("Qq12345$")
+
             );
 
         }
