@@ -1,6 +1,7 @@
 package classworkVersion;
 
 import manager.NGListener;
+import manager.ProviderData;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -10,14 +11,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners(NGListener.class)
 public class RegistrationTests extends TestBase{
- @BeforeMethod
+ @BeforeMethod(alwaysRun = true)
  public void precondition(){
   refresh();
   if(isLogged()) logout();
 
  }
 
- @Test
+ @Test(groups = {"positive"})
     public void registrationPositive(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -37,7 +38,15 @@ public class RegistrationTests extends TestBase{
      pause(5000);
 
  }
- @Test
+// @Test(groups = {"positive"}, dataProvider = "registrationCSV", dataProviderClass = ProviderData.class)
+//    public void registrationPositiveCSV(User user){
+//     openRegistrationForm();
+//     fillRegistrationForm(user);
+//     submitRegistration();
+//     logger.info("registrationPositive starts with : "+ user.getName()+" , "+ user.getLastName() +" , " +user.getEmail()  +" & " + user.getPassword());
+//     pause(5000);
+// }
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongEmail(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -59,7 +68,7 @@ public class RegistrationTests extends TestBase{
       Assert.assertTrue(isElementPresent(By.xpath("//*[.='Wrong email format']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongEmailNoDot(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -81,7 +90,7 @@ public class RegistrationTests extends TestBase{
       Assert.assertTrue(isElementPresent(By.xpath("//*[.='Wrong email format']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeWrongEmailNul(){
   int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -103,7 +112,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeWrongEmailTwo(){
   int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -125,7 +134,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[.='Wrong email format']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongPassword(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -146,7 +155,7 @@ public class RegistrationTests extends TestBase{
      Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongPasswordWithoutSpecialSymbol(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -167,7 +176,7 @@ public class RegistrationTests extends TestBase{
      Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongPasswordLessThanEight(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -209,7 +218,7 @@ public class RegistrationTests extends TestBase{
 //     Assert.assertTrue(isElementPresent(By.xpath("//*[.='Registration failed']")));
 //  pause(5000);
 // }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongPasswordNul(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -230,7 +239,7 @@ public class RegistrationTests extends TestBase{
      Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongPasswordSpace(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -251,7 +260,7 @@ public class RegistrationTests extends TestBase{
      Assert.assertTrue(isElementPresent(By.xpath("//*[@class='error']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
     public void registrationNegativeWrongName(){
      int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -272,7 +281,7 @@ public class RegistrationTests extends TestBase{
      Assert.assertTrue(isElementPresent(By.xpath("//*[.='Registration failed']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeWrongNameNul(){
   int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -293,7 +302,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[.=' Name is required ']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeWrongLastNameNul(){
   int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -314,7 +323,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[.= ' Last name is required ']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeWrongLastName(){
   int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -335,7 +344,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[.='Registration failed']")));
   pause(5000);
  }
- @Test
+ @Test(groups = {"negative"})
  public void registrationNegativeUserAlreadyExists(){
 //  int i = (int)(System.currentTimeMillis()/1000)%3600;
 
@@ -356,7 +365,7 @@ public class RegistrationTests extends TestBase{
   Assert.assertTrue(isElementPresent(By.xpath("//*[.='Registration failed']")));
   pause(5000);
  }
- @AfterMethod
+ @AfterMethod(alwaysRun = true)
  public void postcondition() {
   if( isElementPresent(By.xpath("//button[@type='button']"))){
    clickOkButton();}

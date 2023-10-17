@@ -12,7 +12,7 @@ import java.io.IOException;
 
 import static manager.ApplicationManager.wd;
 
-public class WDListener extends AbstractWebDriverEventListener  { //implements HelperBase
+public class WDListener extends AbstractWebDriverEventListener implements HelperBase { //implements HelperBase
     Logger logger = LoggerFactory.getLogger(WDListener.class);
 
     public WDListener()
@@ -52,15 +52,15 @@ public class WDListener extends AbstractWebDriverEventListener  { //implements H
         logger.info("Here is the pass to screenshot with error ---> "+ link);
 
     }
-    public void takeScreenshot(String link) {
-        File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
-        File screenshot = new File(link);
-
-        try {
-            Files.copy(tmp, screenshot);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+//    public void takeScreenshot(String link) {
+//        File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+//        File screenshot = new File(link);
+//
+//        try {
+//            Files.copy(tmp, screenshot);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
 
 }

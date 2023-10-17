@@ -33,6 +33,7 @@ default void fillLoginForm(User user){
     default void fillRegistrationForm(User user){
         type(By.id("name"), user.getName());
         type(By.id("lastName"), user.getLastName());
+//        type(By.id("emailhgjfg"), user.getEmail());
         type(By.id("email"), user.getEmail());
         type(By.id("password"), user.getPassword());
 //        clickCheckbox();

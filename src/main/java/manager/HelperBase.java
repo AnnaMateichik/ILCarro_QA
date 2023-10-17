@@ -61,5 +61,15 @@ public interface HelperBase extends ApplicationManager {
 //            e.printStackTrace();
 //        }
 //    }
+  default void takeScreenshot(String link) {
+    File tmp = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
+    File screenshot = new File(link);
+
+    try {
+        Files.copy(tmp, screenshot);
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+  }
 
 }

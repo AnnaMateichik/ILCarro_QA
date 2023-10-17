@@ -10,18 +10,19 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 @Listeners(NGListener.class)
 public class AddNewCarTests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged() == false){
             login(
-                    new User()
-                            .withEmail("anna@mail.com")
-                            .withPassword("Qq12345$")
+                     new User()
+                             .getEmail()
+                            .getPassword()
+//            user.getEmail(), user.getPassword()
             );
 
         }
     }
-    @Test
+    @Test(groups = {"positive", "smoke"})
     public void addNewCarPositive(){
         int i = (int)(System.currentTimeMillis()/1000)%3600;
         Car car = Car.builder()

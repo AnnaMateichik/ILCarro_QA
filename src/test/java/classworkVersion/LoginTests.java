@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @Listeners(NGListener.class)
 public class LoginTests extends TestBase {
 
- @BeforeMethod
+ @BeforeMethod(alwaysRun = true)
  public void precondition(){
      refresh();
      if(isLogged()) logout();
@@ -26,7 +26,7 @@ public class LoginTests extends TestBase {
 //        logger.info("loginPositiveTest starts with : "+  email +" & " + password);
 //        Assert.assertTrue(isLoggedSuccess());
 //    }
-    @Test
+    @Test(groups = {"positive"})
     public void loginPositiveTestModel() {
      User user = new User().withEmail("anna@mail.com").withPassword("Qq12345$");
         openLoginForm();
@@ -36,7 +36,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isLoggedSuccess());
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongEmail() {
         String email = "annamail.com";
         String password = "Qq12345$";
@@ -49,7 +49,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class = 'error']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongEmailTwoA() {
         String email = "anna@mail@.com";
         String password = "Qq12345$";
@@ -62,7 +62,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//div[@class = 'error']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongEmail1() {
         String email = "anna@mailcom";
         String password = "Qq12345$";
@@ -75,7 +75,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//*[. = 'Login failed']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongPassword() {
         String email = "anna@mailcom";
         String password = "qq12345$";
@@ -88,7 +88,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//*[. = 'Login failed']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongPassword1() {
         String email = "anna@mailcom";
         String password = "Qq123456";
@@ -101,7 +101,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//*[. = 'Login failed']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative"})
     public void loginNegativeTestWrongPassword2() {
         String email = "anna@mailcom";
         String password = "Qq12345678912345678564346$";
@@ -114,7 +114,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//*[. = 'Login failed']")));
 //        pause(5000);
     }
-    @Test
+    @Test(groups = {"negative","smoke"})
     public void loginNegativeTestWrongPassword3() {
         String email = "anna@mailcom";
         String password = "Qq1234$";
@@ -127,7 +127,7 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(isElementPresent(By.xpath("//*[. = 'Login failed']")));
 //        pause(5000);
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postcondition() {
      if( isElementPresent(By.xpath("//button[@type='button']"))){
         clickOkButton();}

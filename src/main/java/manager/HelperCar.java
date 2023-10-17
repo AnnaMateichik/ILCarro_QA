@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public interface HelperCar extends HelperBase{
     default void openCarForm(){
         pause(5000);
+//        click(By.xpath("//a[.=the car work ']"));
         click(By.xpath("//a[.=' Let the car work ']"));
 
     }
