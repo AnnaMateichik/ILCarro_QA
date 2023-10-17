@@ -1,5 +1,14 @@
 package models;
 
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+@Getter
+@Setter
+@ToString
+@Builder
+
 public class User {
 
 
@@ -9,10 +18,10 @@ public class User {
     String password;
 
 
-//    public User(String email, String password) {
-//        this.email = email;
-//        this.password = password;
-//    }
+    public User(String email, String password) {
+        this.email = email;
+        this.password = password;
+    }
 
 
         public User(String name, String lastName, String email, String password) {
