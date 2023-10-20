@@ -13,14 +13,7 @@ public class AddNewCarTests extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void precondition(){
         if(isLogged() == false){
-            login(
-//                    new User()
-//                            .withEmail(email)
-//                            .withPassword(password)
-                    new User()
-                            .withEmail("anna@mail.com")
-                            .withPassword("Qq12345$")
-
+            login(getEmail(),getPassword()
             );
 
         }
@@ -36,7 +29,7 @@ public class AddNewCarTests extends TestBase{
                 .fuel("Petrol")
                 .seats("5")
                 .carClass("B")
-                .carRegNumber("100-200-" + i)
+                .carRegNumber("100-200-" + i) //have problems in firefox
                 .price("150")
                 .about("New car")
                 .build();

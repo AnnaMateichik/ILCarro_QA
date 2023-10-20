@@ -51,4 +51,12 @@ public interface ApplicationManager {
         wd.quit();
         logger.info("Test completed");
     }
+
+    default String getEmail() {
+        return properties.getProperty("web.email");
+    }
+
+    default String getPassword() {
+        return properties.getProperty("web.password");
+    }
 }

@@ -41,6 +41,28 @@ public interface HelperCar extends HelperBase{
         click(By.className("pac-item"));
 
    }
+   default void typeLocationCity(String location){
+        //pause(5000);
+
+        type(By.id("city"),location);
+        click(By.className("pac-item"));
+
+   }
+//   default void typeDate(String location){
+//        //pause(5000);
+//
+//        type(By.xpath("//*[@for='dates']"),location);
+//        click(By.className("pac-item"));
+//
+//   }
+//   default void typeDateCalendar(String location){
+//        //pause(5000);
+//
+//        click(By.xpath("//*[@for='dates']"));
+//        type(By.xpath("//*[@for='dates']"),location);
+//        click(By.className("pac-item"));
+//
+//   }
    default void typeSerialNumber(String text){
 //       Rectangle rect = wd.findElement(By.id("serialNumber")).getRect();
 //       Rectangle rect = wd.findElement(By.id("make")).getRect();
