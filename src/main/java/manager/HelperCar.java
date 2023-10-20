@@ -86,12 +86,7 @@ public interface HelperCar extends HelperBase{
    }
 
     default void typeDate(String date){
-//        typeDateStr(By.xpath("//*[@for='dates']"),date);
         typeDateStr(By.xpath("//input[@id='dates']"),date);
-//        type(By.xpath("//*[@for='dates']"),date);
-//        click(By.className("pac-item"));
-
-
     }
     default void typeDateCalendar(String date1,String date2){
         //pause(5000);
@@ -116,8 +111,5 @@ public interface HelperCar extends HelperBase{
     default void clickYallaBtn(){
         click(By.xpath("//button[.='Y’alla!']"));
     }
-
-
-
 
 }
