@@ -5,12 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW19.2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/FindYourCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/FindYourCarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classworkVersion/FindYourCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.AddNewCarTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.AddNewCarTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.LoginTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.LoginTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/classworkVersion.LoginTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/classworkVersion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/classworkVersion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.AddNewCarTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.AddNewCarTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.LoginTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-classworkVersion.LoginTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/AddNewCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/reg.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/reg.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/FindYourCar.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,26 +75,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/97252/java_qa39_projects/ILCarro&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/97252/java_qa39_projects/PhoneBook_39",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\97252\java_qa39_projects\ILCarro\src\test\resources" />
       <recent name="C:\Users\97252\java_qa39_projects\ILCarro\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTests">
-    <configuration name="AddNewCarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.FindYourCarTests.FindCarDataStr">
+    <configuration name="FindYourCarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +107,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;classworkVersion.AddNewCarTests&quot;" />
+            <option value="&quot;classworkVersion.FindYourCarTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -100,7 +118,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="AddNewCarTests.addNewCarPositive" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FindYourCarTests.FindCarDataDifferentMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -113,7 +131,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;classworkVersion.AddNewCarTests.addNewCarPositive&quot;" />
+            <option value="&quot;classworkVersion.FindYourCarTests.FindCarDataDifferentMonth&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FindYourCarTests.FindCarDataStr" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;classworkVersion.FindYourCarTests.FindCarDataStr&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="FindYourCarTests.FindCarDataThisMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;classworkVersion.FindYourCarTests.FindCarDataThisMonth&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -148,60 +214,12 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;classworkVersion.LoginTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="RegistrationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;classworkVersion.RegistrationTests&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LoginTests" />
-        <item itemvalue="Gradle.AddNewCarTests" />
-        <item itemvalue="Gradle.RegistrationTests" />
-        <item itemvalue="Gradle.AddNewCarTests.addNewCarPositive" />
+        <item itemvalue="Gradle.FindYourCarTests.FindCarDataStr" />
+        <item itemvalue="Gradle.FindYourCarTests" />
+        <item itemvalue="Gradle.FindYourCarTests.FindCarDataDifferentMonth" />
+        <item itemvalue="Gradle.FindYourCarTests.FindCarDataThisMonth" />
         <item itemvalue="Gradle.FindYourCar.FindCarDataStr" />
       </list>
     </recent_temporary>
@@ -311,7 +329,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697564182747</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="HW19.2">
+      <option name="closed" value="true" />
+      <created>1697807878289</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697807878289</updated>
+    </task>
+    <task id="LOCAL-00014" summary="HW19.2">
+      <option name="closed" value="true" />
+      <created>1697808211045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697808211046</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

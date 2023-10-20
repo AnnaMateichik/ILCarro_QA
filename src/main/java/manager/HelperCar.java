@@ -16,6 +16,12 @@ public interface HelperCar extends HelperBase{
         click(By.xpath("//a[.=' Let the car work ']"));
 
     }
+    default void openSearchCarForm(){
+        pause(5000);
+//        click(By.xpath("//a[.=the car work ']"));
+        click(By.xpath("//a[.=' Search ']"));
+
+    }
 
    default void fillCarForm(Car car){
         if(isCarFormPresent() == false) return;
@@ -44,25 +50,12 @@ public interface HelperCar extends HelperBase{
    default void typeLocationCity(String location){
         //pause(5000);
 
+        isFindCarFormPresent();
         type(By.id("city"),location);
         click(By.className("pac-item"));
 
    }
-//   default void typeDate(String location){
-//        //pause(5000);
-//
-//        type(By.xpath("//*[@for='dates']"),location);
-//        click(By.className("pac-item"));
-//
-//   }
-//   default void typeDateCalendar(String location){
-//        //pause(5000);
-//
-//        click(By.xpath("//*[@for='dates']"));
-//        type(By.xpath("//*[@for='dates']"),location);
-//        click(By.className("pac-item"));
-//
-//   }
+
    default void typeSerialNumber(String text){
 //       Rectangle rect = wd.findElement(By.id("serialNumber")).getRect();
 //       Rectangle rect = wd.findElement(By.id("make")).getRect();
@@ -82,9 +75,49 @@ public interface HelperCar extends HelperBase{
                         wd.findElement(By.cssSelector("h2")), "details"
                 ));
    }
+   default boolean isFindCarFormPresent(){
+        return new WebDriverWait(wd,10)
+                .until(ExpectedConditions.textToBePresentInElement(
+                        wd.findElement(By.cssSelector("h2")), "Yalla"
+                ));
+   }
    default void select(By locator, String option){
         new Select(wd.findElement(locator)).selectByValue(option);
    }
+
+    default void typeDate(String date){
+//        typeDateStr(By.xpath("//*[@for='dates']"),date);
+        typeDateStr(By.xpath("//input[@id='dates']"),date);
+//        type(By.xpath("//*[@for='dates']"),date);
+//        click(By.className("pac-item"));
+
+
+    }
+    default void typeDateCalendar(String date1,String date2){
+        //pause(5000);
+
+        click(By.xpath("//*[@for='dates']"));
+        click(By.xpath(String.format("//*[.=' %s ']", date1)));
+        click(By.xpath(String.format("//*[.=' %s ']", date2)));
+
+    }
+    default void typeDateCalendarMonth(String year,String month,String date1,String date2){
+        //pause(5000);
+
+        click(By.xpath("//*[@for='dates']"));
+        click(By.xpath("//*[@cdkarialive='polite']"));
+        click(By.xpath(String.format("//div[.=' %s ']", year)));
+        click(By.xpath(String.format("//div[.=' %s ']", month)));
+        click(By.xpath(String.format("//*[.=' %s ']", date1)));
+        click(By.xpath(String.format("//*[.=' %s ']", date2)));
+
+    }
+
+    default void clickYallaBtn(){
+        click(By.xpath("//button[.='Y’alla!']"));
+    }
+
+
 
 
 }

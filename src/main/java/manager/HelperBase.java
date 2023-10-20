@@ -24,12 +24,22 @@ public interface HelperBase extends ApplicationManager {
     default void click(By locator){
         wd.findElement(locator).click();
     }
+//    default void clickDates(By locator,){
+//        wd.findElement(locator).click();
+//    }
 
     default void type(By locator, String text){
         WebElement element = wd.findElement(locator);
         element.click();
         element.clear();
         element.sendKeys(text);
+    }
+    default void typeDateStr(By locator, String text){
+        WebElement element = wd.findElement(locator);
+        element.click();
+        element.clear();
+        element.sendKeys(text);
+        click(By.xpath("//div[@class='cdk-overlay-container']"));
     }
 
    default boolean isElementPresent(By locator){
