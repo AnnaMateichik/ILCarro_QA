@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW19.2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/classworkVersion/FindYourCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/classworkVersion/FindYourCar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.AddNewCarTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.AddNewCarTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.LoginTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.LoginTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/classworkVersion.LoginTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/classworkVersion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/classworkVersion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.AddNewCarTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.AddNewCarTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.LoginTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-classworkVersion.LoginTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/classworkVersion/FindYourCar.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW20" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -345,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697808211046</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="HW20">
+      <option name="closed" value="true" />
+      <created>1697817368998</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1697817368998</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -360,6 +343,7 @@
     <MESSAGE value="HW19" />
     <MESSAGE value="HW19.1" />
     <MESSAGE value="HW19.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW19.2" />
+    <MESSAGE value="HW20" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW20" />
   </component>
 </project>
