@@ -109,7 +109,7 @@ public interface HelperCar extends HelperBase{
     }
 
     default void clickYallaBtn(){
-        click(By.xpath("//button[.='Y’alla!']"));
+        click(By.xpath("//button[@type='submit']"));
     }
 
 }

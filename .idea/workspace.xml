@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW20">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+    <list default="true" id="d3878774-4a35-43b7-b0b6-fb8b4a9fcef7" name="Changes" comment="HW20.1">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/findCar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/manager/HelperCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.AddNewCarTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.LoginTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/classes/classworkVersion.RegistrationTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/mytest/packages/classworkVersion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/classworkVersion.FindYourCarTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/classworkVersion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/test/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.AddNewCarTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.LoginTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/TEST-classworkVersion.RegistrationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/mytest/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +95,7 @@
       <recent name="C:\Users\97252\java_qa39_projects\ILCarro\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.FindYourCarTests.FindCarDataStr">
+  <component name="RunManager" selected="Gradle.FindYourCarTests">
     <configuration name="FindYourCarTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -193,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.FindYourCarTests.FindCarDataStr" />
         <item itemvalue="Gradle.FindYourCarTests" />
+        <item itemvalue="Gradle.FindYourCarTests.FindCarDataStr" />
         <item itemvalue="Gradle.FindYourCarTests.FindCarDataDifferentMonth" />
         <item itemvalue="Gradle.FindYourCarTests.FindCarDataThisMonth" />
         <item itemvalue="Gradle.FindYourCar.FindCarDataStr" />
@@ -346,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697817677020</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="HW20.1">
+      <option name="closed" value="true" />
+      <created>1697818439174</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818439174</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,6 +406,7 @@
     <MESSAGE value="HW19.1" />
     <MESSAGE value="HW19.2" />
     <MESSAGE value="HW20" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW20" />
+    <MESSAGE value="HW20.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW20.1" />
   </component>
 </project>

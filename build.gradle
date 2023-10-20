@@ -40,6 +40,8 @@ task mytest(type: Test){
             suites 'src/test/resources/reg.xml'
         } else if (suite.equals('smoke')) {
             suites 'src/test/resources/smoke.xml'
+        } else if (suite.equals('find')) {
+            suites 'src/test/resources/findCar.xml'
         } else {
             suites 'src/test/resources/testng.xml'
         }

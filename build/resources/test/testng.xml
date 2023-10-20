@@ -6,6 +6,7 @@
             <class name="classworkVersion.AddNewCarTests" />
             <class name="classworkVersion.LoginTests" />
             <class name="classworkVersion.RegistrationTests" />
+            <class name="classworkVersion.FindYourCarTests" />
         </classes>
     </test>
 
